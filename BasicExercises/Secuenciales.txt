@@ -1,0 +1,22 @@
+Ejercicios Tomados del Programa de Ingenieria Electrica.
+
+Para cada uno de los siguientes ejercicios hacer el algoritmo en Diagrama de flujo y luego realizar el respectivo programa en lenguaje C:
+
+1. Calcular el área de un círculo y la longitud de su circunferencia dado el valor del radio.
+2. Calcular el área de una arandela dados el radio mayor y el radio menor.
+3. Calcular el área de un triángulo equilátero dado el valor de su lado.
+4. Calcular la hipotenusa de un triángulo rectángulo dados los valores de sus catetos.
+5. Calcular el área y el perímetro de un trapecio dados los valores de la altura, la base menor y la base mayor.
+6. Calcular el volumen y el área de la superficie de una esfera dado el valor del radio.
+7. Calcular el volumen y el área de la superficie de un cilindro dados los valores de la altura y del radio de la base circular.
+8. Calcular el volumen y el área de la superficie de una pirámide de base cuadrada dados los valores de la altura y del lado de la base.
+9. Calcular el volumen de la mayor esfera inscrita en un cubo y de la menor esfera circunscrita dado el lado del cubo.
+10. Dado el valor de una longitud en pies, encontrar su equivalente en centímetros.
+11. Dado el valor de una longitud en millas, encontrar su equivalente en centímetros.
+12. Dado el valor de una temperatura en grados Celsius, encontrar su equivalente en grados Fahrenheit.
+13. Dado el valor de una temperatura en grados Fahrenheit, encontrar su equivalente en grados Celsius.
+
+16. Dado un número entero positivo de cuatro dígitos, calcular la suma de dichos dígitos.
+17. Dados dos números enteros positivos de cinco dígitos, calcular la suma de sus primeros dígitos y la suma de sus últimos dígitos.
+18. Dado un número entero de cuatro dígitos, invertir dicho número.  
+

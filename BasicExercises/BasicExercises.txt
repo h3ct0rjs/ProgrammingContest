@@ -1,0 +1,85 @@
+Universidad Tecnológica de Pereira
+Programación de computadores
+Programas con ciclos
+
+
+Para cada uno de los siguientes ejercicios hacer el algoritmo en seudocódigo antes de hacer el respectivo programa en lenguaje ANSI C:
+
+1. Hacer un programa que lea un número entero positivo y muestre los enteros comprendidos entre 1 y el número leído.
+2. Hacer un programa que lea un número entero positivo y muestre los enteros comprendidos entre el número leído y el 1.
+3. Hacer un programa que lea un número entero positivo o negativo y muestre los enteros comprendidos entre 0 y el número leído.
+4. Hacer un programa que lea un número entero positivo y muestre los múltiplos de 3 comprendidos entre 1 el número leído.
+5. Hacer un programa que lea un número entero positivo y muestre los números terminados en 7 comprendidos entre 1 el número leído.
+6. Hacer un programa que muestre los primeros 40 múltiplos de 4.
+7. Hacer un programa que lea un número entero y muestre su tabla de multiplicar hasta el 10.
+8. Hacer un programa que lea un número entero positivo y calcule la suma de los números enteros comprendidos entre 1 y el número leído.
+9. Hacer un programa que lea un número entero positivo y calcule el producto de los números enteros comprendidos entre 1 y el número leído (factorial).
+10. Hacer un programa que lea dos números enteros y calcule la potencia resultante asumiendo que el primero de los números leídos es la base y el segundo el exponente.
+11. Hacer un programa que lea un número entero positivo y calcule el promedio de los números enteros comprendidos entre 1 y el número leído.
+12. Hacer un programa que calcule la suma de los primeros 20 múltiplos de 8.
+13. Hacer un programa que lea dos números enteros y muestre los enteros comprendidos entre el número menor y el número mayor.
+14. Hacer un programa que lea dos números enteros y muestre los múltiplos de 4 comprendidos entre el número menor y el número mayor.
+15. Hacer un programa que lea dos números enteros y calcule la suma de los números pares comprendidos entre el número menor y el número mayor.
+16. Hacer un programa que lea dos números enteros y muestre los números terminados en 5 comprendidos entre el número menor y el número mayor.
+17. Hacer un programa que muestre los múltiplos de 6 comprendidos entre 500 y 5000.
+18. Hacer un programa que muestre los números terminados en 8 comprendidos entre 9000 y 15000.
+19. Hacer un programa que lea un número entero de 2 dígitos y muestre los enteros comprendidos entre ambos dígitos.
+20. Hacer un programa que lea un número entero de 3 dígitos y muestre los enteros comprendidos entre 1 y cada uno de los dígitos.
+21. Hacer un programa que lea un número entero positivo y muestre todos sus divisores.
+22. Hacer un programa que lea un número entero y determine si es o no primo.
+23. Hacer un programa que lea un número entero y calcule la suma de sus divisores.
+24. Hacer un programa que lea un número entero y determine si es o no perfecto. (un número natural es perfecto si es igual a la suma de sus divisores propios, por ejemplo, 6 es perfecto ya que 1+2+3=6).
+25. Hacer un programa que lea un número entero y determine si es abundante o defectivo. (un número es abundante si la suma de sus divisores propios es mayor que el número; un número es defectivo si la suma de sus divisores propios es menor que el número).
+26. Hacer un programa que lea un número entero y determine cuantos dígitos tiene.
+27. Hacer un programa que lea un número entero y determine cuantos dígitos pares y cuantos dígitos impares tiene.
+28. Hacer un programa que lea un número entero y determine cuantos dígitos primos tiene.
+29. Hacer un programa que lea un número entero y determine a cuanto es igual la suma de sus dígitos.
+30. Hacer un programa que lea un número entero y determine si la suma de sus dígitos es par o es impar.
+31. Hacer un programa que lea un número entero y muestre su primer digito.
+32. Hacer un programa que lea un número entero y determine cual es su digito mayor.
+33. Hacer un programa que lea dos números enteros y determine cual tiene el digito mayor. 
+34. Hacer un programa que lea dos números enteros y determine cual tiene una suma de dígitos mayor. 
+35. Hacer un programa que lea un número entero y determine en que posición está su digito mayor.
+36. Hacer un programa que lea un número entero de cualquier cantidad de dígitos y luego lea otro número entero de un solo dígito y determine cuantas veces está el segundo número leído en el primer número leído.
+37. Hacer un programa que lea un número entero y lo invierta.
+38. Hacer un programa que lea un número entero n y calcule los primeros n números de la serie de Fibonacci. (la serie de Fibonacci comienza con los valores 0 y 1  y va sumando progresivamente los dos últimos elementos de la serie: 0  1  1  2  3  5  8  13  21  34…).
+39. Hacer un programa que lea un número entero y determine si pertenece o no a la serie de Fibonacci.
+40. Hacer un programa que lea un número entero y muestre los elementos de la serie de Fibonacci entre cero y dicho número.
+41. Hacer un programa que estime el valor de  utilizando la fórmula  
+42. Hacer un programa que estime el valor de  utilizando la fórmula  
+43. Hacer un programa que estime el valor de  utilizando la fórmula  
+44. Hacer un programa que lea n números enteros y determine la cantidad de números negativos, la cantidad de números positivos y la cantidad de ceros leídos.
+45. Hacer un programa que lea n números enteros y determine la cantidad de múltiplos de 2, la cantidad de múltiplos de 3 y la cantidad múltiplos de 5.
+46. Hacer un programa que lea n números enteros y calcule el promedio de dichos números.
+47. Hacer un programa que lea n números enteros y determine cual es el entero mayor del grupo.
+48. Hacer un programa que lea n números enteros y determine cual es el entero menor del grupo.
+49. Hacer un programa que lea una serie de números enteros positivos hasta que digiten cero y calcule el promedio de dichos números.
+50. Hacer un programa que lea una serie de números enteros positivos hasta que digiten cero y calcule el promedio de los números terminados en 3.
+51. Hacer un programa que determine el sueldo para cada uno de varios empleados. La empresa paga “tiempo normal” para las primeras 40 horas trabajadas de cada empleado y paga “tiempo y medio” para todas las horas trabajadas en exceso de 40 horas. Se le proporciona una lista de n empleados de la empresa, el número de horas que cada empleado trabajó la última semana, y la tasa horaria de cada empleado. El programa deberá introducir está información para cada uno de los empleados, y determinar y desplegar la nómina bruta de cada uno de ellos.
+52. Al final de cada mes una tienda hace un descuento del 30% en el costo de la compra para los primeros 10 clientes que llegan, además premia con otro descuento del 40% al cliente que mas puntos acumule en dicha compra. Se debe hacer un programa que lea el valor de la compra del cliente y la cantidad de puntos y muestre el número del cliente (según el orden de llegada) y el nuevo valor de la compra. El programa debe además mostrar cual es el cliente (número) con más puntos acumulados y hacer el descuento adicional. 
+53. Una ferretería vende 5 productos cuyos precios de venta son los siguientes: martillos a $5.000; destornilladores a $6.500; serruchos a $7.250; palas a $15.000; carretillas a $30.000. Hacer un programa que lea una serie de pares de números (número del producto y cantidad vendida). El programa debe utilizar una instrucción switch para determinar el precio de venta de cada producto. Debe además calcular y mostrar el valor total de venta de todos los productos vendidos.
+54. En un consultorio médico se hacen descuentos en el costo de la consulta según la categoría del paciente como se indica en la siguiente tabla:
+CATEGORÍA PACIENTE
+DESCUENTO
+1 40%
+2 30%
+3 15%
+4  5%
+Además, si el paciente es menor a 12 años tendrá un descuento adicional del 10% y si presenta más de tres enfermedades tendrá otro descuento del 8%, todo sobre el costo inicial de la consulta. Hacer un programa que lea la categoría, la edad y el número de enfermedades de  varios pacientes y calcule el valor de la consulta para cada uno de ellos.
+55. Hacer un programa que muestre la tabla de multiplicar de los números del 1 al 10.
+56. Hacer los respectivos programas que muestren en pantalla los siguientes patrones, teniendo en cuenta que el usuario ingresa el número de líneas de cada una de las figuras:
+
+57. Hacer un programa que lea n números enteros y por cada número leído muestre la suma de los números comprendidos entre 1 y dicho número.
+58. Hacer un programa que lea n números enteros y muestre el factorial de cada uno de los números leídos.
+59. Hacer un programa que muestre el factorial de los números comprendidos entre 1 y 10.
+60. Hacer un programa que lea un número entero y calcule el factorial de todos los enteros comprendidos entre 1 y el número leído. 
+61. Hacer un programa que lea n números enteros y muestre la cantidad de dígitos de cada uno de los números leídos.
+62. Hacer un programa que lea n números enteros y determine cuantos de dichos números son primos.
+63. Hacer un programa que lea n números enteros y determine cuantos de dichos números son perfectos.
+64. Hacer un programa que lea un número entero y muestre los números primos comprendidos entre 1 y dicho número leído.
+65. Hacer un programa que muestre los números prefectos entre 1 y 10000.
+66. Hacer un programa que lea n números enteros y determine cual de dichos números tiene más dígitos.
+67. Hacer un programa que lea n números enteros y determine cual de dichos números tiene más dígitos pares.
+68. Hacer un programa que lea un número entero y calcule el promedio de los números primos comprendidos entre 1 y dicho número leído.
+69. Hacer un programa que lea una serie de números enteros hasta que digiten 0 y calcule la suma de todos los dígitos de todos los números del grupo. 
+70. Hacer un programa que lea n números enteros y determine la suma de todos los primeros dígitos de todos los números leídos.  
