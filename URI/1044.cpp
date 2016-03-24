@@ -5,6 +5,10 @@ int main(){
 fast;
 int a, b;
 cin>>a>>b;
-  cout <<( (a%b==0 || b%a==0 ) ? "São Múltiplos" : "Não são Múltiplos") << endl;
+if ( a%b==0||b%a==0){
+  cout<<"Sao Multiplos"<<endl;}
+else{
+  cout<<"Nao sao Multiplos"<<endl;
+}
 return 0;
 }
