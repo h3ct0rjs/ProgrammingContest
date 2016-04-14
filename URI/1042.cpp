@@ -18,3 +18,4 @@ int main(){
         cout << intArray[i]<<endl;
     return 0;
 }
+  
