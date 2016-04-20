@@ -11,7 +11,7 @@ if(n<0 || n==0)
     cin>>n;
   }
 for(int i=a;times<=n;i++){    //iterate to do the corresponding add.
-  acc+=i;times++;
+  acc+=i;times++; 
   }
 cout<<acc<<endl;
 }
