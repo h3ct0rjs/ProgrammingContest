@@ -28,3 +28,5 @@
 *.app
 *.input
 *.output
+#Vim Swap Files
+*.swp

@@ -3,21 +3,30 @@
 using namespace std;
 
 int main(){
-fast;short n=15;int num=0;int posp=0,posi=0;
-int par[5],impar[5];
-while(n--){
-  cin>>num;
-  if(num%2==0){
-    par[posp]=num;
-    cout<<"par["<<posp<<"] = "<<par[posp]<<endl;
-    posp++;
-  }
-  else{
-  impar[posi]=num;
-  cout<<"impar["<<posi<<"] = "<<impar[posi]<<endl;
-  posi++;
-  }
-  if(posp==5)   posp=0;
-  if(posi==5)   posi=0;
-}
+fast;
+
+int par[5],impar[5], allarray[15],pp=0,pi=0;
+for(int i=0;i<15;i++)
+	cin>>allarray[i];
+
+cout<<"Recibidos: ";
+for(int d=0;d<15;d++)
+	cout<<" "<<allarray[d]<<" ";
+
+for(int i=0;i<15;i++){
+	if(allarray[i]%2==0){
+		par[pp]=allarray[i];
+		pp++;	
+		}
+	else{ 
+		impar[pi]=allarray[i];
+		pi++;
+		}
+	if(pp==4){
+		for(int d=0;d<5;d++)
+			cout<<"par["<<d<<"] = "<<par[d]<<endl;
+			}
+	pp=0;
+	}
+
 }
