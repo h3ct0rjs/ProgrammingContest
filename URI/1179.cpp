@@ -1,32 +1,28 @@
 #include <bits/stdc++.h>
 #define fast ios_base::sync_with_stdio(false);cin.tie(NULL)
+#define endl "\n";
 using namespace std;
-
 int main(){
 fast;
-
-int par[5],impar[5], allarray[15],pp=0,pi=0;
-for(int i=0;i<15;i++)
-	cin>>allarray[i];
-
-cout<<"Recibidos: ";
-for(int d=0;d<15;d++)
-	cout<<" "<<allarray[d]<<" ";
-
-for(int i=0;i<15;i++){
-	if(allarray[i]%2==0){
-		par[pp]=allarray[i];
-		pp++;	
+int par[5],impar[5], temp,ci=0,cp=0,c=15;
+while(c--){
+	cin>> temp;
+	if(temp%2==0){
+		par[cp]=temp;
+		cp++;
 		}
-	else{ 
-		impar[pi]=allarray[i];
-		pi++;
+	else{
+		impar[ci]=temp;
+		ci++;
 		}
-	if(pp==4){
-		for(int d=0;d<5;d++)
-			cout<<"par["<<d<<"] = "<<par[d]<<endl;
-			}
-	pp=0;
+	if(cp==5){
+		for(int j=0;j<5;++j)
+				cout<<"par["<<j<<"] = "<<par[j]<<endl;
+		}
+	if(ci==5){
+		for(int j=0;j<5;++j)
+				cout<<"impar["<<j<<"] = "<<par[j]<<endl;
+		}
 	}
 
 }
