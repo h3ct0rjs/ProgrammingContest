@@ -3,7 +3,9 @@
 #define endl "\n";
 //1021, Banknotes and Coins
 using namespace std;
+
 void solve(long double n){
+  n+=1e-9;
   double notas[6]={100, 50, 20, 10, 5, 2};
   double coins[6]={1, 0.50, 0.25, 0.10, 0.05,0.01};
   long long notasv=0,coinsv=0;
