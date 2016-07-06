@@ -15,26 +15,31 @@ int n,count=0,countmax=0;
 cin>> n;
 stack <bool> binario;			//create a basic stack datastructure.
 
-while(n>0){						//take the decimal value and divide,
-								//send the remainder to the stack.
+while(n>0){								//take the decimal value and divide,
+													//send the remainder to the stack.
 bool r=n%2;			
 	n/=2;
-	binario.push(r);			//Fill Stack.
+//	cout<<r<<" ";
+	binario.push(r);				//Fill Stack.
 	}
+//cout <<endl;
+//cout << "Stack Filled."<<endl;
 
-while(! binario.empty() ){		//iterating through the stack until it becomes empty.
-	
-	if(binario.top()==1){
-		count+=1;
-		binario.pop();
+while(! binario.empty() ){		
+			if(binario.top()==1){
+				count+=1;	
+				//cout<< binario.top()<<" ";
+				if(count>countmax){
+					countmax=count;
+				}
+				binario.pop();
 		}
 
 	else{
-		if(count>countmax){
-			countmax=count;
-			}
-		count=0;
-	binario.pop();
+		
+			count=0;
+			//cout<<binario.top()<<" ";
+			binario.pop();
 		}
  }
 	cout<<countmax<<endl;
