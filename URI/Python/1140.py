@@ -3,15 +3,14 @@ while True:
 	if datain=='*':
 		break;
 	datain=datain.split(" ")
-	print(datain)
-	x=True
+	var=0
 	for i in range(len(datain)-1):
-		if datain[1][:1].lower() == datain[1][:1].lower():
-			try:
-				x="ok"
-			except
-		
-	if x=="ok":
+		if(datain[i][:1].lower() == datain[i+1][:1].lower()):
+			var=1;
+		else : 
+			var=0;
+
+	if var==1:
 		print("Y")
 	else:
 		print("N")
