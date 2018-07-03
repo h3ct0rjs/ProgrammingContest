@@ -1,7 +1,0 @@
-def checkPalindrome(w):
-    w=w.casefold()
-    r=reversed(w)
-    if list(w) == list(r):
-        return True
-    else:
-        return False
